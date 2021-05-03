@@ -272,7 +272,6 @@ public class TerrainGenerator : MonoBehaviour
 
     // Get the tile coords of the center hex of the chunk
     private static AxialCoords ChunkToTileCoords(AxialCoords chunkCoords){
-        //return new AxialCoords(hex.q*chunkR + hex.r*chunkE, hex.r*chunkR + (hex.r - hex.q)*chunkE);
         return new AxialCoords(chunkCoords.q * chunkD + chunkCoords.r * chunkR, -chunkCoords.q * chunkR + chunkCoords.r * chunkE);
     }
 
