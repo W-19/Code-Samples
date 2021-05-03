@@ -3,7 +3,7 @@
  * It's adapted from the terrain generator I made for Trials of Tonalli, and has the following in common
  * with that script:
  * - Terrain is procedurally generated in chunks, similar to Minecraft
- * - Unlike Minecraft, terrain is never save to or loaded from disk
+ * - Unlike Minecraft, terrain is never saved to or loaded from disk
  * - When a "default" terrain tile is generated, it has a chance to be populated with something (eg. an item pickup)
  * However, there are some major differences from the ToT TerrainGenerator:
  * - Tiles and chunks are hexagonal here, as opposed to square for ToT
